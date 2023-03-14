@@ -55,3 +55,5 @@ $ python3 dbt_smart_run.py -targets your_first_target_model your_second_target_m
 ```
 
 Here's an example of what to expect from your terminal output:
+
+<img width="1282" alt="Screenshot 2023-03-13 at 11 32 53 AM" src="https://user-images.githubusercontent.com/54283769/225139201-0901cb84-7361-4c27-891d-9c66f540ad44.png">
