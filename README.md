@@ -21,13 +21,11 @@ Note: This package is currently only supported on BigQuery.  However, if you use
 
 > Note: These files will need to be stored in your dbt project's macro folder.
 
-+ packages.yml
-  + If you don't already have a dependency on dbt_utils, you will need this package to use dbt_smart_run.
-
 + requirements.txt
 
 ## Step 2: Install the dbt_utils package
 (Skip if you already have a dependency on dbt_utils)
+
 Be sure you've included the dbt_utils package to your `packages.yml` file
 > TIP: Check [dbt Hub](https://hub.getdbt.com/) for the latest installation instructions or [read the dbt docs](https://docs.getdbt.com/docs/package-management) for more information on installing packages.
 ```yaml
@@ -35,6 +33,7 @@ packages:
   - package: dbt-labs/dbt_utils
     version: [">=0.8.0", "<0.9.0"]
 ```
+> Note, your range may differ if you are already using dbt_utils. If using a different version, the ability to run log_info is a requirement.
 
 ## Step 3: Install required python packages
 Install dependencies by running the following:
