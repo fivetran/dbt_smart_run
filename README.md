@@ -16,7 +16,8 @@ Note: This package is currently only supported on BigQuery.  However, if you use
   + generate_schema_name.sql
   + get_all_upstream_reference_models.sql
   + is_valid_model_list.sql
-  + reset_dev_environment.sql
+  + copy_prod_to_target.sql
+  + create_or_replace_prod_to_target.sql
   + reset_dev_for_list_of_models.sql
 
 > Note: These files will need to be stored in your dbt project's macro folder.
