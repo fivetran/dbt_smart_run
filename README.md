@@ -1,3 +1,6 @@
+# Notice!
+This code was open-sourced in support of [this blog post](https://www.fivetran.com/blog/how-we-execute-dbt-runs-faster-and-cheaper). It is not actively maintained by the Fivetran team but you are welcome to fork and use the repo for yourselves.
+
 # dbt_smart_run
 # 📣 What does this dbt package do?
 Do you find yourself wasting time looking through your data lineage DAG trying to figure out which models to run?  What about wanting to save on the costs of running your dbt models? Do your dbt runs take forever?
